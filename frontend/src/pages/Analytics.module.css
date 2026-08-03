@@ -1,0 +1,26 @@
+.page    { display: flex; flex-direction: column; gap: 1.5rem; }
+.loading { color: var(--muted); padding: 3rem; text-align: center; }
+.header  { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+.title   { font-size: 1.6rem; font-weight: 700; }
+.sub     { color: var(--muted); font-size: .875rem; margin-top: .2rem; }
+.select  { background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: .55rem .85rem; border-radius: var(--radius); font-size: .875rem; cursor: pointer; }
+
+.empty  { text-align: center; color: var(--muted); padding: 4rem 2rem; }
+.empty span { display: block; font-size: 3rem; margin-bottom: .75rem; }
+.empty a { color: var(--accent); }
+
+.kpiRow { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.kpiCard { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
+.kpiValue { font-size: 1.35rem; font-weight: 700; }
+.kpiLabel { color: var(--muted); font-size: .8rem; margin-top: .25rem; }
+
+.card      { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; }
+.cardTitle { font-size: 1rem; font-weight: 600; margin-bottom: 1.25rem; }
+.chartWrap { height: 300px; }
+
+.table { width: 100%; border-collapse: collapse; font-size: .875rem; }
+.table th { text-align: left; padding: .6rem .75rem; color: var(--muted); border-bottom: 1px solid var(--border); }
+.table td { padding: .65rem .75rem; border-bottom: 1px solid var(--border); }
+.table tr:last-child td { border-bottom: none; }
+.table tr:hover td { background: var(--surface2); }
+.muted { color: var(--muted); font-size: .875rem; }
